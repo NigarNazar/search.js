@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+body{
+    background-color:#c7ecee;
+    
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-basis: 100%;
+}
+
+
+.document-searching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px ;
+}
+
+.documnet-contact{
+   
+    min-width:430px;
+    height: 46px;
+    border: 1px solid #666;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    padding-left: 5px;
+   
+    box-shadow: 2px  4px 3px rgba(0,0,0,12%);
+    
+}
+
+.input-document{
+    width: calc(100% - 80px);
+    height: 40px;
+    font-weight: 500; 
+    text-transform: uppercase;
+    outline: none;
+    background-color:#fff;
+    border: none;
+   
+ 
+}
+
+
+.document-btn{
+    width: 33px;
+    height: 42.5px;
+    border: none;
+    cursor: pointer;
+    background-color:#fff;
+}
+   
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.document-container{
+   min-width:40%;
+    list-style: none;
+}
+
+.document-work{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#fff;
+padding: 10px;
+    font-size:18px;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+    margin-bottom: 10px;
+}
+.document-style{
+    flex: 1;
+    cursor:default;
+}
+.document-style:hover{
+    background: #ecf0f1;
+    transition: .2s ease-out;
+}
+.button-work{
+    border: none;
+    background: #fff;
+    cursor: pointer;
+
+}
+.delete{
+    display: none;
+}
+.fa-solid{
+    pointer-events: none;
+}
