@@ -28,7 +28,7 @@ todoButton.addEventListener('click' , function(e){
     const clickElement = e.target
     if(clickElement.classList.contains('button-work')){
         clickElement.parentElement.classList.add('delete')
-        alert(salam)
+       
     }
     e.preventDefault()
     
@@ -57,15 +57,11 @@ if(klikElementi.classList.contains('inputElementi')){
     console.log(klikElementi)
 }
 e.preventDefault()
-//
+
 inputElementi.value = ''
 })
 
 
  
 
-// <!-- <div class="document-work">
-//                 <li class="document-style">
-//                     idmana get
-//                 </li> -->
 
